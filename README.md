@@ -15,6 +15,7 @@ The code is based on the implementation of the following papers:
 
 Prerequisites
 -------------
+- Your [ChatGPT API KEY](https://platform.openai.com/account/api-keys) on `alvate.py`
 - `Python 3.6` 
 - ffmpeg: `sudo apt-get install ffmpeg`
 - Install PyTorch. Pick the latest stable version, your operating system, your package manager (pip by default) and finally pick any of the proposed CUDA versions if you have a GPU, otherwise pick CPU. Run the given command.
