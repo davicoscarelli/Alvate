@@ -31,6 +31,7 @@ import sounddevice as sd
 
 import openai
 
+OPENAI_KEY = "PASTE YOUR API KEY HERE"
 
 checkpoint_path = "checkpoints/wav2lip.pth"
 outfile = 'results/result_voice.mp4'
@@ -173,7 +174,7 @@ class Generator:
     
     def __init__(self, source):
 
-        openai.api_key = "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"
+        openai.api_key = OPENAI_KEY
 
         command = 'ffmpeg -i {} temp/{}.wav'.format(source, "temp_audio")
         subprocess.call(command, shell=platform.system() != 'Windows')
