@@ -22,7 +22,7 @@ Prerequisites
 - Download Pretrained Models: 
 
 [Download this](https://drive.google.com/file/d/13fNxK2M7Kz05mvJFOTzjytK0i78cE5ug/view?usp=share_link) to Path: 
-`/.saved_models/default`
+`./saved_models/default`
 
 
 [Download this](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/radrabha_m_research_iiit_ac_in/Eb3LEzbfuKlJiR600lQWRxgBIY27JZg80f7V9jtMfbNDaQ?e=TBFBVW
