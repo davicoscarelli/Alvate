@@ -1,4 +1,4 @@
-from beyond import Generator
+from alvate import Generator
 
 Generator(source="video.mp4")
 
